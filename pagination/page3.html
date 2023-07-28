@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page3</title>
+    <style>
+        .text {
+            color: deeppink;
+            text-align: center;
+        }
+        
+        .textDiv {
+            margin: auto;
+            border: 2px solid skyblue;
+            width: 500px;
+        }
+        
+        .buttons {
+            margin: auto;
+            width: 500px;
+            margin-top: 50px;
+        }
+        
+        .size {
+            padding: 5px 20px 5px 20px;
+        }
+        
+        #page1 {
+            margin-left: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="textDiv">
+        <h1 class="text">WELCOME TO PAGE-3</h1>
+    </div>
+    <div class="buttons">
+        <button id="page1" class="size">page 1</button>
+        <button id="page2" class="size">page 2</button>
+        <button id="page3" class="size">page 3</button>
+        <button id="page4" class="size">page 4</button>
+    </div>
+
+</body>
+<script>
+    let page1 = document.getElementById("page1");
+    let page2 = document.getElementById("page2");
+    let page4 = document.getElementById("page4");
+    page1.onclick = function() {
+        window.location.href = "page1.html";
+    }
+    page2.onclick = function() {
+        window.location.href = "page2.html";
+    }
+    page4.onclick = function() {
+        window.location.href = "page4.html";
+    }
+</script>
+
+</html>
